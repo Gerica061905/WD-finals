@@ -1,0 +1,90 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(245, 245, 245);
+}
+body{
+    height: 100vh;
+    background: url(../img/taps.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+header.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10px;
+    background: pink;
+    & > img.logo-icon {
+        height: 50px;
+        border-radius: 50%;
+        transition: .5s;
+        &:hover {
+            background-color: rgba(216, 115, 155, 0.981);
+            transform: translateY(-5px)
+        }
+    }
+}
+section.main-content{
+    text-align: center;
+    height: 0%;
+    width: 20%;
+}
+
+nav.top-buttons{
+    display: flex;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding-bottom: 49%;
+    gap: 0;
+}
+h2 {
+    color: rgb(93, 14, 58);
+    background: rgba(216, 115, 155, 0.449);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    text-shadow: 2px 1px lightpink;
+    margin: 1.5rem auto;
+    max-width: 600px;
+    font-size: 1.5rem;
+    backdrop-filter: blur(10px);
+    transition: .5s;
+    &:hover {
+        background-color: rgba(216, 115, 155, 0.981);
+        transform: translateY(-10px)
+    }
+}
+p {
+    color: rgb(128, 12, 66);
+    margin: 0 auto;
+    max-width: 500x;
+}
+a.btn{
+    background: rgb(172, 5, 86);
+    box-shadow: 0 5px 20px rgb(250, 243, 245);
+    font-size: 1.1rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 18%;
+
+    font-weight: 500;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: all 0.5s;
+    &:hover{
+        background-color: rgb(52, 29, 38);
+        transform: translateY(-3px);
+        color: rgb(230, 132, 184);
+    }
+    &.active {
+        background: rgb(76, 3, 44);
+    }
+}

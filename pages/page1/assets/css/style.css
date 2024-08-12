@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100dvh;
+    background: rgb(255, 213, 236);
+    background: url(../img/flower.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 208dvh;
+    overflow: hidden;
+}
+header.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: pink;
+}
+header.top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10px;
+    background: pink;
+    & > img.logo-icon {
+        height: 50px;
+        border-radius: 50%;
+        transition: .5s;
+        &:hover {
+            background-color: rgba(216, 115, 155, 0.981);
+            transform: translateY(-5px)
+        }
+    }
+}
+section.main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    & div.title {
+        color: rgb(200, 21, 104);
+        font-size: 1.8rem;
+    }
+    & div.description {
+        color: rgb(21, 1, 5);
+        border: 5px solid rgb(50, 4, 28);
+        border-radius: 18%;
+        padding: 1rem 1rem ;
+        font-size: 3dvb;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: rgb(247, 132, 151);
+        width: 100%;
+    }
+}
+nav.top-buttons {
+    display: flex;
+    flex-grow: 0;
+    justify-content: space-evenly;
+}
+img.me {
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid rgb(247, 132, 151);
+    transition: 0.3s ease;
+    &:hover{
+        transform: scale(0.5) rotateY(180deg);
+    }
+}
+.socials {
+    margin-top: 1rem;
+    display: flex;
+    gap: 10px;
+}
+.socials a{
+    font-size: 1.5rem;
+    color:rgb(200, 21, 104);
+    transition: all 0.5s;
+    font-size: 2rem;
+    &:hover{
+        transform: translateY(-10px);
+        color: rgb(123, 9, 75);
+    }
+}
+a.btn{
+    background: rgb(172, 5, 86);
+    box-shadow: 0 5px 20px rgb(250, 243, 245);
+    font-size: 1.1rem;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    margin-right: 10px;
+    border-radius: 18%;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.5s;
+    &:hover{
+        background-color: rgb(52, 29, 38);
+        transform: translateY(-3px);
+        color: rgb(230, 132, 184);
+    }
+    &.active {
+        background: rgb(76, 3, 44);
+    }
+}
