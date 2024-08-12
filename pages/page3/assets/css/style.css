@@ -120,13 +120,15 @@ section.main{
         text-decoration: none;
         background: #bf1650;
         color: white;
-        padding: 0.5rem 1rem;
-        border-radius: 6px;
-        transition:  transform 0.3, box-shadow 0.3s;
+    }
         &:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-            background: rgb(76, 3, 44);
+            background: rgb(239, 137, 195);
         }
     }
-}
+    .btn{
+       display: inline-block;
+       justify-content: center;
+       align-items: center;
+    }
