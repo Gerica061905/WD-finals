@@ -54,7 +54,9 @@
 ---
 
 ## Overview
+Welcome to my personal website! This project highlights my work and the skills I've gained from the Web Development with Client-Side Scripting class. It features five uniquely designed pages, each with interactive buttons that are both fun and easy to use. By applying my knowledge of HTML, CSS, and layout design, I created a site that is user-friendly and showcases my web development abilities.
 
+This portfolio serves as a creative way to demonstrate my skills and past projects. It acts as a digital resume, showcasing my web design and development capabilities to potential employers or clients.
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 
@@ -69,6 +71,10 @@
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website
+- Hover Effects
+- Interactive Features
+- Animated Cards
+- Project Showcase
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -88,24 +94,49 @@
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-finals
 └─ assets
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
+|   |   └─ butterfly.jpg
+|   |   └─ icaa.jpg
+|   |   └─ taps.jpg
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ pageName
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
+|  └─ page1
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ flower.jpg
+|  |  |  └─ js
+|  |  |     └─ script.js
+|  |  └─ index.html
+|  └─ page2
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ bgbgform.jpg
+|  |  |  |  └─ bgform.jpg
+|  |  |  └─ js
+|  |  |     └─ script.js
+|  |  └─ index.html
+|  └─ page3
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ bgbg.jpg
+|  |  |  |  └─ handson2.jpg
+|  |  |  |  └─ midterm.jpg
+|  |  |  |  └─ sw3.jpg
+|  |  |  |  └─ sw4.jpg
+|  |  |  └─ js
+|  |  |     └─ script.js
+|  |  └─ index.html
 └─ index.html
 └─ readme.md
 ```
